@@ -17,7 +17,10 @@ INCLUDES=$(foreach D,$(INCDIRS), $(shell find $(D) -type f -name "*"))
 
 BINARY=bin
 
-all: $(BINARY)
+all: | $(ODIR) $(BINARY) 
+
+$(ODIR):
+	mkdir -p $@
 
 $(BINARY): $(OBJECTS)
 	$(CC) -o $@ $^ $(LIBS)
