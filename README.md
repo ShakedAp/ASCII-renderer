@@ -11,6 +11,7 @@ This project is a 3D ASCII renderer that runs in the terminal, utilizing the ncu
 
 ## Installation
 
+*This project was built in a linux based system and using the linux terminal.*
 1. Clone the repository: `git clone https://github.com/ShakedAp/ASCII-renderer.git`.
 1. Make sure the prerequisites are installed. The project relies on `pthread` and `ncurses`.
 1. Compile the project using the Makefile: `make all`. Change the compiler to your compiler of choice.
