@@ -3,7 +3,7 @@
 #include <string.h>
 #include <pthread.h>
 #include <math.h>
-#include<sys/time.h>
+#include <sys/time.h>
 
 #include "objectLoader.h"
 #include "framebuffer.h"
