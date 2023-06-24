@@ -36,9 +36,9 @@ Example process to export a mesh from blender:
 5. Export the object
 
 ## Screenshots
-Utah Teapot, containing around 10k triangles:
+Utah Teapot, containing around 10k triangles (gif needs to load):  
 ![utah teapot](./screenshots/utahteapot.gif)
-A simple ship object, containing much less triangles and a larger font. (Larger font -> less pixels -> lower quality):
+A simple ship object, containing much less triangles and a larger font. (Larger font -> less pixels -> lower quality):  
 ![ship](./screenshots/ship.png)
 
 ## What's Next?
